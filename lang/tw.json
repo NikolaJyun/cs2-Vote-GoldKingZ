@@ -1,0 +1,112 @@
+{
+	//==========================
+    //        顏色
+    //==========================
+    //{Yellow} {Gold} {Silver} {Blue} {DarkBlue} {BlueGrey} {Magenta} {LightRed}
+    //{LightBlue} {Olive} {Lime} {Red} {Purple} {Grey}
+    //{Default} {White} {Darkred} {Green} {LightYellow}
+    //==========================
+    //        其他
+    //==========================
+    //{nextline} = 列印在下一行
+	//<br> = HUD 中心訊息的下一行
+    //==========================
+	
+    "voteadmin.not.allowed": "{green}Gold KingZ {grey}| {darkred}此指令僅限管理員使用",
+    "voteadmin.choose.file": "{purple}選擇檔案",
+    "voteadmin.choose.player": "{purple}選擇玩家",
+    "voteadmin.delete.player": "{purple}您確定要刪除 {lime} {0} {grey}嗎？",
+    "voteadmin.player.detail": "{darkred}-------------------------------------------- {nextline} {green}Gold KingZ {grey}| 名稱： {Purple}{0} {grey}|| SteamID: {Purple}{1}{nextline}{green}Gold KingZ {grey}| IP位址: {Purple}{2}{nextline}{green}Gold KingZ {grey}| 日期: {Purple}{3}{nextline}{green}Gold KingZ {grey}| 限制： {grey}天數:{Purple}{4} {grey}分鐘:{Purple}{5}{nextline}{green}Gold KingZ {grey}| 原因: {lime}{6}{nextline}{darkred}-------------------------------------------- ",
+    "voteadmin.answer.yes": "{lime}是",
+    "voteadmin.answer.no": "{darkred}否",
+    "voteadmin.player.successfully": "{green}Gold KingZ {grey}| {Purple}{0} {grey}已成功刪除",
+
+    "votekick.menu.name": "{purple}投票踢出選單",
+    "votekick.player.is.disabled": "{green}Gold KingZ {grey}| 投票踢出暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votekick.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票踢出，您需要至少 {lime}{0} {grey}名玩家",
+    "votekick.player.is.immunity": "{green}Gold KingZ {grey}| {darkred}投票失敗 {Purple}{0} {darkred}您不能投票踢出 VIP",
+    "votekick.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經投票踢出 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votekick.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}踢出 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votekick.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}踢出 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votekick.player.delay.message": "{green}Gold KingZ {grey}| 您將被踢出，需要等待 {red}{0} 分鐘",
+    "votekick.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要踢出 {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votekick.announce.kick.successfully.message": "{green}Gold KingZ {grey}| 投票成功，{Purple}{0} {grey}已被踢出",
+    "votekick.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票踢出",
+    "votekick.announce.halfvotes.center.message": "<font color='purple'>投票已達一半</font> <font color='darkred'>{0} 秒</font> <br> <font color='grey'>踢出玩家： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>要接受請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>要拒絕請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+
+
+    "votebanned.menu.name": "{purple}投票封鎖選單",
+    "votebanned.player.is.disabled": "{green}Gold KingZ {grey}| 投票封鎖暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votebanned.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票封鎖，您需要至少 {lime}{0} {grey}名玩家",
+    "votebanned.player.is.immunity": "{green}Gold KingZ {grey}| {darkred}投票失敗 {Purple}{0} {darkred}您不能投票封鎖 VIP",
+    "votebanned.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經投票封鎖 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votebanned.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}封鎖 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votebanned.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}封鎖 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votebanned.player.delay.message": "{green}Gold KingZ {grey}| 您已被封鎖，需要等待 {red}{0} 天",
+    "votebanned.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要封鎖 {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votebanned.announce.banned.successfully.message": "{green}Gold KingZ {grey}| 投票成功，{Purple}{0} {grey}已被封鎖",
+    "votebanned.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票封鎖",
+    "votebanned.announce.halfvotes.center.message": "<font color='purple'>投票已達一半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>封鎖玩家： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>要接受封鎖請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>要拒絕封鎖請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+
+
+    "votemute.menu.name": "{purple}投票禁言選單",
+    "votemute.player.is.disabled": "{green}Gold KingZ {grey}| 投票禁言暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votemute.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票禁言，您需要至少 {lime}{0} {grey}名玩家",
+    "votemute.player.is.immunity": "{green}Gold KingZ {grey}| {darkred}投票失敗對象：{Purple}{0} {darkred}您不能對 VIP 進行投票禁言",
+    "votemute.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經投票禁言 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemute.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}禁言 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemute.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}禁言 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemute.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要禁言 {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votemute.player.muted.successfully.message": "{green}Gold KingZ {grey}| 您已被禁言 {red}{0} {grey}分鐘",
+    "votemute.announce.muted.successfully.message": "{green}Gold KingZ {grey}| 投票成功，{Purple}{0} {grey}已被禁言",
+    "votemute.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票禁言",
+    "votemute.announce.halfvotes.center.message": "<font color='purple'>投票已達一半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>禁言玩家： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>要接受禁言請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>要拒絕禁言請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+    
+    "votegag.menu.name": "{purple}投票禁言(文字)選單",
+    "votegag.player.is.disabled": "{green}Gold KingZ {grey}| 投票禁言(文字)暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votegag.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票禁言(文字)，您需要至少 {lime}{0} {grey}名玩家",
+    "votegag.player.is.immunity": "{green}Gold KingZ {grey}| {darkred}投票失敗對象：{Purple}{0} {darkred}您不能投票禁言(文字) VIP",
+    "votegag.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經投票禁言(文字) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegag.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}禁言(文字) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegag.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}禁言(文字) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegag.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要禁言(文字) {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votegag.player.gaged.successfully.message": "{green}Gold KingZ {grey}| 您已被禁言(文字) {red}{0} {grey}分鐘",
+    "votegag.announce.gaged.successfully.message": "{green}Gold KingZ {grey}| 投票成功，{Purple}{0} {grey}已被禁言(文字)",
+    "votegag.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票禁言(文字)",
+    "votegag.announce.halfvotes.center.message": "<font color='purple'>投票已達一半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>禁言(文字)玩家： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>要接受禁言(文字)請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>要拒絕禁言(文字)請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+
+    "votesilent.menu.name": "{purple}投票禁言(語音)單",
+    "votesilent.player.is.disabled": "{green}Gold KingZ {grey}| 投票禁言(語音)暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votesilent.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票禁言(語音)，您需要至少 {lime}{0} {grey}名玩家",
+    "votesilent.player.is.immunity": "{green}Gold KingZ {grey}| {darkred}投票失敗對象：{Purple}{0} {darkred}您不能投票禁言(語音) VIP",
+    "votesilent.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經投票禁言(語音) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votesilent.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}禁言(語音) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votesilent.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}禁言(語音) {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votesilent.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要禁言(語音) {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votesilent.player.silented.successfully.message": "{green}Gold KingZ {grey}| 您已被禁言(語音) {red}{0} {grey}分鐘",
+    "votesilent.announce.silented.successfully.message": "{green}Gold KingZ {grey}| 投票成功，{Purple}{0} {grey}已被禁言(語音)",
+    "votesilent.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票禁言(語音)",
+    "votesilent.announce.halfvotes.center.message": "<font color='purple'>投票已過半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>禁言(語音)玩家： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>同意禁言(語音)請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>拒絕禁言(語音)請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+
+    "votegamemode.menu.name": "{purple}投票遊戲模式選單",
+    "votegamemode.player.is.disabled": "{green}Gold KingZ {grey}| 投票遊戲模式暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votegamemode.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票遊戲模式，您需要至少 {lime}{0} {grey}名玩家",
+    "votegamemode.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經對遊戲模式 {Purple}{0} {grey}進行投票[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegamemode.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}遊戲模式 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegamemode.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}遊戲模式 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votegamemode.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要將遊戲模式更改為 {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votegamemode.announce.gamemode.successfully.message": "{green}Gold KingZ {grey}| 投票成功，正在將遊戲模式更改為 {Purple}{0}",
+    "votegamemode.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票更改遊戲模式",
+    "votegamemode.announce.halfvotes.center.message": "<font color='purple'>投票已過半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>更改模式： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>同意更改請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>拒絕更改請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>",
+    
+    "votemap.menu.name": "{purple}投票地圖選單",
+    "votemap.player.is.disabled": "{green}Gold KingZ {grey}| 投票地圖暫時 {darkred}停用 {grey}管理員在遊戲中",
+    "votemap.minimum.needed": "{green}Gold KingZ {grey}| {grey}您無法開始投票地圖，您需要至少 {lime}{0} {grey}名玩家",
+    "votemap.player.vote.same.player": "{green}Gold KingZ {grey}| 您已經對地圖 {Purple}{0} {grey}進行投票[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemap.player.vote.same.yes": "{green}Gold KingZ {grey}| 您已經投票 {lime}贊成 {grey}地圖 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemap.player.vote.same.no": "{green}Gold KingZ {grey}| 您已經投票 {red}反對 {grey}地圖 {Purple}{0} {grey}[ {Olive}{1} {grey}/ {Olive}{2} {grey}]",
+    "votemap.chat.message": " {green}Gold KingZ {grey}| {Purple}{0} {grey}想要將地圖更改為 {Magenta}{1} {grey}[ {Olive}{2} {grey}/ {Olive}{3} {grey}]",
+    "votemap.announce.map.successfully.message": "{green}Gold KingZ {grey}| 投票成功，正在將地圖更改為 {Purple}{0}",
+    "votemap.announce.halfvotes.chat.message": "{green}Gold KingZ {grey}| 票數已達一半，輸入 {yellow}!yes {grey}/ {yellow}!y {grey}或 {red}!no {grey}/ {red}!n {grey}來投票地圖",
+    "votemap.announce.halfvotes.center.message": "<font color='purple'>投票已過半</font> <font color='darkred'>{0} 秒</font> <br> <font color='red'>更換地圖： </font> <font color='lightblue'>{1} ?</font> <br> <font class='fontSize-l' color='green'> [ {2} / {3} ] </font> <br> <font color='grey'>同意更換請輸入</font> <font color='yellow'>!yes</font><font color='grey'>/</font><font color='yellow'>!y</font> <br> <font color='grey'>拒絕更換請輸入</font> <font color='yellow'>!no</font><font color='grey'>/</font><font color='yellow'>!n</font>"
+}
